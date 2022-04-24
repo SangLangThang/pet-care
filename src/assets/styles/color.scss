@@ -1,0 +1,26 @@
+$orange: #ff642f;
+$yellow: #fdbb4b;
+$cyan: #008ba7;
+$green: #7ac143;
+
+$color-list: (
+  orange: $orange,
+  yellow: $yellow,
+  cyan: $cyan,
+  green: $green
+);
+
+
+$sizes: 40px, 50px, 80px;
+
+@each $size in $sizes {
+  .icon-#{$size} {
+    font-size: $size;
+    height: $size;
+    width: $size;
+  }
+}
+.color-red{
+  color: #ff642f;
+  background-color: blue;
+}
